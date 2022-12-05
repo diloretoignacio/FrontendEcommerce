@@ -1,0 +1,113 @@
+article{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 1fr 1fr 0.5fr;
+    align-items: center;
+}
+
+#tituloPage{
+  margin: 1rem;
+  font-size: 30px;
+}
+
+#articulos{
+    background-color: white;
+    margin: 2rem 19rem;
+    padding: 1rem;
+}
+
+
+#listadoArticulos{
+  background-color: white;
+  padding: 1rem;
+}
+
+.item {
+  list-style-image: url(../img/ok.png);
+}
+
+#imagen{
+    margin: 0.5rem 1rem 0.5rem 1rem;
+}
+
+#titulo{
+  margin: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 20px;
+}
+
+#precio{
+    display: grid;
+    justify-content: right;
+    margin:0.51rem 2rem 0.5rem 1rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#lbProductos{
+  font-weight: bold;
+}
+
+#cantidad{
+    margin: 0.5rem 0rem 0.5rem 0rem;
+    font-size: 20px;
+}
+
+
+.eliminar{
+    margin: 0.5rem 1rem 0.5rem 1rem;
+    background-color: white;
+    border:0px;
+    font-size: 15px;
+}
+
+.eliminar ion-icon {
+  cursor: pointer;
+  color: red;
+  font-size: 50px;
+}
+
+#comprar{
+  cursor: pointer;
+  margin: 1rem;
+  color:white;
+  background:#3483FA;
+  border:0px;
+  padding: 1rem;
+  height:45px;
+  font-size: 15px;
+}
+
+#total{
+  padding: 1rem;
+  text-align: right;
+}
+
+#precioTotal{
+  font-weight: bold;
+}
+
+body{
+  background-color:#EDEDED;
+}
+
+.btnMasMenos
+  {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background: transparent; 
+    border-radius: 70px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+.btnMasMenos:hover {
+      background-color: #008CBA;
+      color: white;
+}

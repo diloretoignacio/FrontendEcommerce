@@ -1,0 +1,68 @@
+#compraExitosa{
+  border: 1px;
+  border-radius: 5%;
+  box-shadow: 0 0 20px rgb(75, 74, 74);  
+  background-color: white;
+  color: black;
+  margin: 2rem 35rem;
+  max-width: 600px;
+}
+
+
+.tituloCard{
+  font-family: 'Avenir', sans-serif;
+  padding: 1rem;
+  text-align: center;
+  background-color: #008f39;
+  color: white;
+  display: block;
+}
+
+.productos{
+  margin: 0rem 1rem;
+}
+
+#envio{
+  display: block;
+  padding: 0rem 0rem;
+}
+
+#lbProductos{
+  display: block;
+  padding: 1rem 0rem;
+}
+
+#descripcion{
+  padding: 1rem 2rem;
+}
+
+#idOrden{
+  text-align: center;
+  display: block;
+  font-size: 22px;
+  padding: 0.5rem;
+}
+
+#envio ion-icon {
+  color: black;
+  font-size: 18px;
+}
+
+.img{
+  padding: 1rem;
+  display: block;
+  text-align: center;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+}
+
+#total{
+  text-align: right;
+}
+
+#precioTotal{
+  font-weight: bold;
+}

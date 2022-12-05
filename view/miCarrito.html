@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="../css/styleGeneral.css">
+        <link rel="stylesheet" href="../css/styleHeader.css">
+        <link rel="stylesheet" href="../css/styleFooter.css">
+        <link rel="stylesheet" href="../css/styleMiCarrito.css">
+        <link rel="stylesheet" href="../css/styleCompraExitosa.css">
+
+        <!-- Ionicons -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        <!-- Alertify -->
+        <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.min.css"/>
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css"/>
+    </head>
+    <body>
+        <header id = "header"> </header>
+        <main>
+            <div id="root">
+                <div id="miCarrito">
+                    <div id="articulos">
+                        <label id="tituloPage"> Mi carrito </label>
+                        <div id="response"> </div>
+                        <div id="listadoArticulos">
+
+                        </div>
+                        <div id="total">
+                            Total: <label id="precioTotal">$0 </label>
+                            <button id="comprar"> Finalizar compra </button> 
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </main>
+
+        <footer id = "footer"></footer>
+        <script type="module" src="../js/miCarrito.js"></script>
+    </body>
+</html>

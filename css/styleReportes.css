@@ -1,0 +1,81 @@
+#tituloPage{
+    margin: 1rem;
+    font-size: 30px;
+  }
+  
+  #containerReportes{
+      background-color: white;
+      margin: 2rem 5rem;
+      padding: 1rem;
+  }
+  
+  #listadoReportes{
+      background-color: white;
+      padding: 1rem;
+  }
+  
+  #titulo{
+    margin: 0.5rem 1rem 0.5rem 1rem;
+    font-size: 15px;
+  }
+  
+  body{
+    background-color:#EDEDED;
+  }
+  
+  td{
+      padding: 1rem;
+  }
+  
+  table{
+      width: 60%;
+      text-align: center;
+  }
+  
+  .containerTable{
+      display: flex;
+      justify-content: center;
+  }
+  
+  #total{
+    font-weight: bold;
+    padding-right: 15rem;
+    text-align: right;
+  }
+
+
+  #containerForm{
+    padding: 1rem;
+  }
+  
+
+  .item{
+    display: inline;
+    padding: 1rem;
+  }
+
+  #buscar{
+    cursor: pointer;
+    color:white;
+    background:#3483FA;
+    border:0px;
+    padding: 0.4rem;
+    border-radius: 20px;
+}
+
+input{
+  border-radius: 5px;
+  margin-left: 0.2rem;
+  border: 1px solid rgb(120, 135, 143);
+}
+
+ion-icon{
+  font-size: 15px !important;
+}
+
+.itemProducto {
+  margin: 0rem 4rem;
+  list-style-image: url(../img/ok.png);
+}
+
+

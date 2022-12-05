@@ -1,0 +1,58 @@
+header{
+    background-color:black;
+    color: rgb(199, 199, 199);
+    position: sticky;
+    width: 100%;
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    justify-content: start;
+}
+
+.menu ul li{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.menu ul a{
+    text-decoration: none;
+    display: block;
+    padding: 1rem 1rem;
+    color: white !important;
+}
+
+.menu ul a:hover{
+    background-color: rgb(199, 199, 199);
+    transition: background-color 0.3s 0s linear;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.search input[type=text]
+{
+    width:300px;
+    height:25px;
+    margin: 0rem 0.1rem 0rem 0.1rem;
+    padding: 0.5rem;
+    border-radius:100px;
+    border: 0.5px solid grey;
+}
+
+#searchButton{    
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    border: 0;
+    font-size: 27px !important;
+}
+
+ion-icon{
+    color: white;
+    font-size: 17px;
+  }

@@ -1,0 +1,201 @@
+#detalleProducto{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2rem 5rem 0rem;
+    background-color: white;
+}
+
+#detalleOtros{
+  margin: 0rem 5rem;
+}
+
+#titulo{
+  margin: 3rem 2rem 2rem 1rem;
+  font-size: 25px;
+}
+
+#precio{
+  margin: 2rem 2rem 2rem 1rem;
+  font-size: 30px;
+}
+
+#detalle{
+  margin: 2rem 2rem 2rem 1rem;
+  font-size: 15px;
+}
+
+
+
+#compraProducto{
+  padding: 1rem;
+  margin: 1rem;
+  display: block;
+  align-items: center;
+  word-wrap: break-word
+}
+
+
+#envios{
+  display: flex;
+  flex-basis: 100%;
+  margin: 2rem 2rem 2rem 0rem;
+  font-size: 15px;
+}
+
+#cantidad{
+  margin: 2rem 2rem 2rem 0rem;
+  font-size: 15px;
+}
+
+#comprar{
+  cursor: pointer;
+  display: inline-block;
+  margin: 2rem 0rem 0.2rem 0rem;
+  color:white;
+  background:#3483FA;
+  border:0px;
+  width:95%;
+  height:45px;
+  font-size: 15px;
+}
+
+#agregarCarrito{
+  cursor: pointer;
+  display: inline-block;
+  margin: 0.2rem 0rem 2rem 0rem;
+  color:#3483FA;
+  background: #D9E7FA;
+  border:0px;
+  width:95%;
+  height:45px;
+  font-size: 15px;
+}
+
+
+.btnMasMenos
+  {
+    padding: 0.5rem;
+    margin: 0.5rem;
+      background: transparent; 
+      border-radius: 70px;
+      text-decoration: none;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      background-color: white; 
+      color: black; 
+      border: 2px solid #008CBA;
+}
+
+.btnMasMenos:hover {
+      background-color: #008CBA;
+      color: white;
+}
+
+body{
+  background-color:#EDEDED;
+}
+
+ion-icon{
+  padding: 0px 10px 0px 10px;
+  font-size: 17px;
+}
+
+.image{
+  padding: 1rem !important;
+}
+
+.marca{
+  padding: 1rem 0rem;
+}
+
+
+
+
+
+
+
+.txtOtros{
+  font-size: 20px;
+}
+
+#otros{
+  padding: 2rem;
+  margin: 0rem 5rem;
+  background-color: white;
+}
+
+
+#detalleOtros{
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+.card {
+  background-color: white;
+  border: 1px;
+  padding: 0.1rem 1rem 0.2rem 1rem;
+  margin: 0.2rem 1rem 1rem 1rem;
+  border-radius: 5%;
+  box-shadow: 0 0 20px rgb(75, 74, 74);
+  text-align: center;
+}
+
+.titleCard
+{
+  display: block;
+}
+
+.precioCard{
+  display: block;
+}
+
+.verDetalle{
+  cursor: pointer;
+  display: inline-block;
+  margin: 1rem 0.2rem 1rem 0.2rem;
+  color:white;
+  background:#3483FA;
+  border:0px;
+  border-radius: 3%;
+  width:95%;
+  height:45px;
+  font-size: 15px;
+}
+
+.buttonCard{
+  display: flex;
+  justify-content: center;
+}
+
+.titleCard{
+  margin: 0.2rem 0.4rem 0.2rem 0.4rem;
+  font-size: 24px;
+}
+
+.precioCard{
+  font-size: 20px;
+}
+
+
+.cuotas{
+  padding: 1rem 0rem; 
+  font-size: 20px;
+  color: rgb(36, 155, 76);
+}
+.envios{
+  padding: 1rem 0rem;
+  font-size: 20px;
+  color: rgb(36, 155, 76);
+}
+
+.extra ion-icon {
+  cursor: pointer;
+  color: rgb(36, 155, 76);
+  font-size: 25px;
+}
